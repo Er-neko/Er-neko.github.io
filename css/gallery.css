@@ -1,0 +1,48 @@
+body {
+    background-color: #191414;
+}
+
+.main {
+    /* padding: 8px; */
+    margin-top: 8px;
+    height: 1000px;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: auto;
+    background-color: #1db954;
+    overflow: hidden;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #303132;
+}
+
+.active {
+    background-color: #191414;
+    padding: 0%;
+}
+
+.main_img:hover {
+    opacity: 1;
+}
+
+footer {
+    color: dimgrey;
+}
